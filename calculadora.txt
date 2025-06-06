@@ -1,0 +1,17 @@
+Para tornar executável, usei o comando:
+
+chmod +x calculadora.sh
+
+Para fazer a atualização dq permissão do arquivo, usei o comando:
+
+chmod u=rwx,go=r calculadora.sh
+
+E para verificar o comando:
+ls -l calculadora.sh
+
+Que retornou o seguinte:
+
+-rwxr--r--1 walter walter 172 Jun 6 15:20 calculadora.sh
+
+Para executar:
+./calculadora.sh
